@@ -66,16 +66,16 @@ footer a{
   font-style: italic;
 }
 #c-one{
-  background-image: url(bayindir.jpg);
+  background-image: url(bayindir.webp);
 }
 #c-two{
-  background-image: url(solar-banner-3.jpg);
+  background-image: url(solar-banner-3.webp);
 }
 #c-three{
-  background-image: url(solar-home-2.jpg);
+  background-image: url(solar-home-2.webp);
 }
 #c-four{
-  background-image: url(panel.jpg);
+  background-image: url(panel.webp);
 }
 .card-image img{
   min-height: 170px;
