@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+nav{
+  min-height: 18vh;
+}
+.menu-btn{
+  position: sticky;
+  top:0;
+  z-index: 10;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  background-color: #558B2F ;
+  align-items: center;
+  justify-content: center;
+}
+.menu-btn a{
+  margin:5px;
+}
+.nav-wrapper{
+  overflow: hidden;
+  background-color: #fff;
+  color: #000;
+}
+.nav-wrapper a{
+  color: #000;
+}
+.brand-logo img{
+  margin: 7px;
+  width: 25vw;
+  height: 20vh;
+  margin: auto;
+}
+#head-cards{
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.parallax-container{
+  min-height: 600px;
+}
+.container{
+  padding: 50px;
+  font-size: 17px;
+}
+footer a{
+  color: #000;
+}
+.carousel-item{
+  background-size: cover;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px 2px black, 1px -1px 2px black, -1px 1px 2px black, -1px -1px 2px black; 
+  -moz-text-shadow: 1px 1px 2px black, 1px -1px 2px black, -1px 1px 2px black, -1px -1px 2px black;
+  -webkit-text-shadow: 1px 1px 2px black, 1px -1px 2px black, -1px 1px 2px black, -1px -1px 2px black;
+}
+.carousel-item h1{
+  font-size: 5vw;
+  font-weight: bold;
+}
+.carousel-text{
+  font-style: italic;
+}
+#c-one{
+  background-image: url(bayindir.jpg);
+}
+#c-two{
+  background-image: url(solar-banner-3.jpg);
+}
+#c-three{
+  background-image: url(solar-home-2.jpg);
+}
+#c-four{
+  background-image: url(panel.jpg);
+}
+.card-image img{
+  min-height: 170px;
+}
+.xsmall{
+  max-height: 270px;
+}
+#about h4{
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+#copyright{
+  margin: auto;
+  text-align: center;
+}
+.page-footer{
+  margin: auto;
+}
+.page-footer h4{
+  margin-bottom: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer-content-title{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.footer-content-text{
+  margin-bottom: 15px;
+}
+.footer-container{
+  padding-top: 0px;
+}
+#developer{
+  background-color: #343A40;
+  color: #fff;
+  font-style: italic;
+  font-size: 13px;
+  padding: 5px;
+}
+#developer a{
+  color: #0096FF;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .brand-logo img{
+    margin: 7px;
+    width: 70vw;
+    height: 17vh;
+    margin: auto;
+  }
+  nav{
+    min-height: 15vh;
+  }
+  .carousel-item h1{
+    font-size: 11vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .brand-logo img{
+    margin: 7px;
+    width: 45vw;
+    height: 15vh;
+    margin: auto;
+  }
+  nav{
+    min-height: 13vh;
+  }
+}
